@@ -7,8 +7,8 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<project name="w7_inner_classlar" default="default" basedir=".">
-    <description>Builds, tests, and runs the project w7_inner_classlar.</description>
+<project name="w6_inner_classlar" default="default" basedir=".">
+    <description>Builds, tests, and runs the project w6_inner_classlar.</description>
     <import file="nbproject/build-impl.xml"/>
     <!--
 
@@ -58,7 +58,7 @@
 
     An example of overriding the target for project execution could look like this:
 
-        <target name="run" depends="w7_inner_classlar-impl.jar">
+        <target name="run" depends="w6_inner_classlar-impl.jar">
             <exec dir="bin" executable="launcher.exe">
                 <arg file="${dist.jar}"/>
             </exec>
