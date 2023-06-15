@@ -42,13 +42,13 @@ public class main {
         System.out.println(b); // 4  
         System.out.println(c); // 9
         */
-        /*
+        
         int a = 5, b = 4, c;
         c = (a* ++b) / (6-a) * (a+b);
         System.out.println(c);
         boolean bool = (a+b)<(a+c)&&(a+b)>=(b+a);
         System.out.println(bool);
-        */
+        
         
         Scanner scan = new Scanner(System.in); // Ctrl+Shift+I kombinasyonuyla otomatik olarak importu gerçekleştirir
         /*System.out.print("yaş girin: ");

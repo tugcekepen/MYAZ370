@@ -6,19 +6,17 @@ import java.util.ListIterator;
 /**
  *
  * @author TugceK
- */
+ */    /*
 public class linkexample {
+
     public static void main(String[] args) {
-        LinkedList<String> linkedList = new LinkedList<String>();
-        linkedList.add("Samsun");
-        linkedList.add("Elazığ");
-        linkedList.add("Ordu");
-        linkedList.add("İstanbul");
-        linkedList.add("Ankara");
-        linkedList.remove(2);
-        linkedList.add("Rize");
+        LinkedList linkedList = new LinkedList();
+        linkedList.add("apple");
+        linkedList.add("banana");
+        linkedList.add("carrot");
+        linkedList.add("date");
         
-        yazdir(linkedList);
+        System.out.println(linkedList.get(1));
         
     }
     
@@ -28,7 +26,7 @@ public class linkexample {
             System.out.println(sehir);
         }
         */
-        
+        /*
         //LinkedList içerisinde gezinmenin ileri seviyesi
         ListIterator iterator = list.listIterator(); //list içerisindeki gezinme aracımız iteratör
         while(iterator.hasNext()) { //"ileride eleman var mı?" --> iteratör bir sonraki hamleye sahipse hasNext() true dönecek.
@@ -39,7 +37,9 @@ public class linkexample {
         //  System.out.println(iterator.next());
         //kodu çalıştırmak istesek HATA alırız. Çünkü zaten en son NULL'daydık yani artık eleman yok ileriye gidemez!
         
-        System.out.println(iterator.previous()); //previous() "geriye doğru" --> bulunduğu konumdan geriye hareket edecek. //Rize
+        System.out.println(iterator.previousI); //previous() "geriye doğru" --> bulunduğu konumdan geriye hareket edecek. //Rize
         /*haliyle hasPrevious() ise "geride eleman var mı?" --> varsa true döner.*/
-    }
+    /*}
+
 }
+*/

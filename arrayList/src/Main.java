@@ -7,7 +7,8 @@ import java.util.ArrayList;
  */
 public class Main {
     public static void main(String[] args) {
-        ArrayList<String> array = new ArrayList<String>(); // <T> için ilkel veri tiplerinin yazımı; T --> String, Integer, Double, Boolean, Char
+        /*
+        ArrayList<String> array = new ArrayList<String>(); // <E> için ilkel veri tiplerinin yazımı; E --> String, Integer, Double, Boolean, Char
         array.add("Samsun");
         array.add("Elazığ");
         array.add("Ordu");
@@ -74,11 +75,18 @@ public class Main {
         eğer if bloğunun şartını str3.equals(str4) şeklinde yazsaydık, bu sefer referansların içindeki değerlere bakardı. "Aynı" sonucu verirdi.
         */
         
+        ArrayList<Integer> listA = new ArrayList<Integer>();
+        listA.add(1);
+        listA.add(2);
+        listA.add(3);
+        ArrayList<Integer> listB = listA;
+        listB.add(4);
+        System.out.println(listA);
     }
-    
+    /*
     public static void yazdir(ArrayList<String> arr){
         for (int i = 0; i < arr.size(); i++) {
             System.out.println(arr.get(i));
         }
-    }
+    }*/
 }
