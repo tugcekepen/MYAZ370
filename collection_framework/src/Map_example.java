@@ -48,6 +48,15 @@ public class Map_example {
         for (Map.Entry<Character, Integer>entry:treemap2.entrySet()) {
             System.out.println ("Harf: " + entry.getKey() + " -> Adet: " + entry.getValue());
         }
+        
+        
+        //sinav
+        TreeMap<String, Integer> map = new TreeMap<>();
+        map.put("Elma", 1);
+        map.put("Armut", 2);
+        map.put("Kiraz", 3);
+        map.put("Muz", 4);
+        System.out.println(map.keySet());
 
     }
 }
